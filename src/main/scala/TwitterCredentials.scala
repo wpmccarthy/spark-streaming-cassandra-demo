@@ -1,5 +1,5 @@
 /**
- * Created by Will on 02/09/2014.
+ * Created by Will McCarthy on 02/09/2014.
  */
 object TwitterCredentials{
   val consumerKey = "INSERTYOURKEYSHEREINSERTYOURKEYSHERE"

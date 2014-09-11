@@ -1,5 +1,5 @@
 /**
- * Created by Will on 03/09/2014.
+ * Created by Will McCarthy on 03/09/2014.
  */
 
 import org.apache.spark.{SparkConf, SparkContext}
