@@ -2,6 +2,7 @@
  * Created by Will McCarthy on 03/09/2014.
  */
 
+import org.apache.log4j.{Level, Logger}
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import org.apache.spark.streaming.StreamingContext._
@@ -13,6 +14,8 @@ import com.github.nscala_time.time.Imports._
 object ConnectToCassandra {
 
   def main (args: Array[String]) {
+
+    Logger.getRootLogger.setLevel(Level.WARN)
 
     // Setup Twitter access
     TwitterCredentials.setCredentials()
